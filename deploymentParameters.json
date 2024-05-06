@@ -1,0 +1,45 @@
+{
+ 2   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+ 3   "contentVersion": "1.0.0.0",
+ 4   "parameters": {
+ 5     "vmSize": {
+ 6       "value": "Standard B1s (1 processeur virtuel, 1 Gio de mémoire)"
+ 7     },
+ 8     "vmName": {
+ 9       "value": "lucien-vm"
+10     },
+11     "adminUsername": {
+12       "value": "toto"
+13     },
+14     "adminPassword": {
+15       "value": "Pommedepain00"
+16     },
+17     "resourceGroup": {
+18       "value": "cloud-shell-storage-westeurope"
+19     },
+20     "appId": {
+21       "value": "19f7dc4b-392e-4da4-a973-249a1531ee49"
+22     },
+23     "password": {
+24       "value": "hQH8Q~j~dZoZWNhKgHMxzkr_lMHc6E.sRn1i7cMO"
+25     },
+23     "password": {
+24       "value": "hQH8Q~j~dZoZWNhKgHMxzkr_lMHc6E.sRn1i7cMO"
+25     },
+26     "tenantId": {
+27       "value": "<3ce19fb1-e7e4-46fe-8cd0-86524c47
+28     },
+29     "subscriptionId": {
+30       "value": "f65c2270-099d-473b-b2fc-c19cb3347fe9"
+31     },
+32
+33     "location": {
+34       "value": "West Europe (Zone 1)"
+35     },
+36     "deployBastion": {
+37         "value": "<true | false>"
+38     },
+39     "bastionHostName": {
+40       "value": "<Azure Bastion Host name>"
+41     }
+42   }
